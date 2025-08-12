@@ -1,0 +1,4 @@
+select DISTINCT author_id AS id from Views where author_id = viewer_id ORDER BY author_id ASC;
+
+# To get the order we will use ORDER BY colum name ASC or DESC .
+# To remove duplicate rows we will use DISTINCT .
