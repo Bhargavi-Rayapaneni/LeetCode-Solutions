@@ -1,0 +1,4 @@
+
+select tweet_id from Tweets where LENGTH(content) >15;
+
+# To get the length of a column content we will use LENGTH(COLUM_NAME) 
